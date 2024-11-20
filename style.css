@@ -125,26 +125,25 @@ p {
 
 form {
   width: 100px;
-  margin-left: 48rem;
+  margin-left: 42rem;
 }
 label {
   font-family: "Libre Baskerville", serif;
-  color: white;
+  color: black;
+  font-size: 14px;
 }
-input {
-  width: 300px;
+.form-control {
+  width: 500px;
   border-radius: 20px;
   border: none;
   padding: 0.5rem;
 }
-textarea {
-  width: 300px;
-  border-radius: 20px;
-  padding: 2rem;
+.form-floating {
+  margin-top: 1rem;
 }
 .Enviar {
-  width: 300px;
-  padding: 0.3rem;
+  width: 500px;
+  padding: 0.8rem;
   border-radius: 20px;
   border: none;
   background-color: white;

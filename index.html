@@ -85,23 +85,39 @@
         </div>
       </div>
     </section>
-    <section id="SUPPORT" class="Support">
+    <footer id="SUPPORT" class="Support">
       <div>
         <h4 class="Sup_txt">loopstudios</h4>
         <h4 class="Sup_txt">FALE CONOSCO</h4>
         <form>
-          <label for="nome">Nome:</label>
-          <input type="text" id="nome" name="nome" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="mensagem">Mensagem:</label>
-          <textarea id="mensagem" name="mensagem" required></textarea>
-
+          <div class="form-floating mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="floatingInput"
+              placeholder="name@example.com" />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input
+              type="password"
+              class="form-control"
+              id="floatingPassword"
+              placeholder="Password" />
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
           <button class="Enviar" type="submit">Enviar</button>
         </form>
       </div>
+
       <div class="icons">
         <a class="icons2" href="https://www.facebook.com/pedro.pededrinho/"
           ><img src="images/icon-facebook.svg"
@@ -114,6 +130,6 @@
         /></a>
       </div>
       <a class="home" href="#home">Home</a>
-    </section>
+    </footer>
   </body>
 </html>
